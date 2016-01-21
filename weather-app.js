@@ -50,7 +50,7 @@ to-do list included to use in conjuction with the weather app.  Thank you for vi
 		  lata = position.coords.latitude;
     	longi = position.coords.longitude;
     	locUrl = "http://api.openweathermap.org/data/2.5/forecast/daily?lat=" + lata +"&lon="+ 
-      longi+"&appid=ac63c928ee86e580e68b306e9ddf62fb";
+      longi+"&appid=";
       getTheWeather(currentIndex);
 		}
 /*does just what it says. uses .ajax method */
